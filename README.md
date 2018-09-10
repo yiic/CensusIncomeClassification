@@ -1,5 +1,5 @@
 # Census Income Classification
-
+*Instructions for compiling and executing my code:*
 ### Set up
 * [python3.6]
 * [pandas]
@@ -11,6 +11,8 @@
 [pandas]: <https://pandas.pydata.org/>
 [numpy]: <https://github.com/numpy/numpy>
 [sklearn]: <https://github.com/scikit-learn/scikit-learn>
+
+
 
 ### Classification Model
 This model will predict whether a person have more than 50,000 dollars salary.
