@@ -30,7 +30,7 @@ Options:
 ```
 
 2. prediction process
-
+```sh
 Usage:
 python predict_classify.py -i <inputfile> -m <model file>
 
@@ -40,10 +40,10 @@ python predict_classify.py -i data/classification-test.data -m forest_model.sav
 Options:
 -i: input file
 -m: model file
-
+```
 
 ### Significant Features Selection
-
+```sh
 Usage:
 python feature_FSS.py -i <inputfile> -f <feature_selection_model>
 
@@ -53,11 +53,11 @@ python feature_FSS.py -i data/census-income.data -f forest
 Options:
 -i: input file
 -f: feature selection model: forward, forest, boosting
-
+```
 
 ### Segementation Model
 1. training process
-
+```sh
 Usage:
 python train_seg.py -i <inputfile> -cluster <segementation_model> -n <number of clusters> -o <model output>
 
@@ -68,11 +68,11 @@ Options:
 -i: input file
 -cluster: segementation model: KNN or GMM
 -o: output file of training model
-
+```
 
 
 2.  prediction process
-
+```sh
 Usage:
 python predict_seg.py -i <inputfile> -m <model file>
 
@@ -82,9 +82,10 @@ python predict_seg.py -i data/segmentation-test.data -m seg_model.sav
 Options:
 -i: input file
 -m: model file
+```
 
 3. Generating feature histogram for analysis
-
+```sh
 Usage:
 python features_analysis.py -i <inputfile> -o <ouput file>
 
@@ -94,3 +95,4 @@ python features_analysis.py -i data/census-income.data -o features_analysis.txt
 Options:
 -i: input file
 -o: output file
+```
