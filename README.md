@@ -1,5 +1,6 @@
 # Census Income Classification
-*Instructions for compiling and executing my code:*
+__Project report:__ [report](https://github.com/yiic/CensusIncomeClassification/blob/master/census_classification_report.pdf)    
+  
 ### Set up
 * [python3.6]
 * [pandas]
@@ -13,8 +14,8 @@
 [sklearn]: <https://github.com/scikit-learn/scikit-learn>
 
 
-
-### Classification Model
+### Run Commands
+#### Classification Model
 This model will predict whether a person have more than 50,000 dollars salary.
 1. training process
 ```sh
@@ -44,7 +45,7 @@ Options:
 -m: model file
 ```
 
-### Significant Features Selection
+#### Significant Features Selection
 ```sh
 Usage:
 python feature_FSS.py -i <inputfile> -f <feature_selection_model>
@@ -57,7 +58,7 @@ Options:
 -f: feature selection model: forward, forest, boosting
 ```
 
-### Segementation Model
+#### Segementation Model
 1. training process
 ```sh
 Usage:
